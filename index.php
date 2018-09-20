@@ -20,7 +20,7 @@ $items = $itemsQuery->rowCount() ? $itemsQuery : [];
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Your own To-do</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:500" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -28,7 +28,7 @@ $items = $itemsQuery->rowCount() ? $itemsQuery : [];
 </head>
 <body>
         <div class="list">
-            <h1 class="header">To do.</h1>
+            <h1 class="header">To-do</h1>
             <?php if(!empty($items)): ?>
             <ul class="items">
                 <?php foreach($items as $item): ?>
